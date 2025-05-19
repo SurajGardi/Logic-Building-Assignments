@@ -12,9 +12,7 @@ int CountFour(int iNo)
      while(iNo != 0)
      {
         iDigit = iNo % 10;
-        //printf("Mod : %d\n",iDigit);
         iNo = iNo / 10;
-        //printf("Divide : %d\n",iNo);
         if(iDigit == 4)
         {
             iCnt++;
